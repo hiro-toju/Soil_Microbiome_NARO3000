@@ -10,6 +10,8 @@
 #### 
 ############################################################################
 
+devtools::install_github("hiroakif93/R-functions/AnalysisHelper", force=TRUE)
+
 set.seed(123)
 setwd("/Users/toju/Dropbox/NARO_3000soil/Statistics")
 
