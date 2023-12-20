@@ -6,12 +6,17 @@
 #### 2022.03.16 Fujita
 #### 2022.06.23 Toju
 #### R 4.1.2
-#### setwd("~/Desktop/NARO/220520/")
+#### 
 #### 
 ############################################################################
 
 set.seed(123)
-setwd("/Users/toju/Dropbox/NARO_3000soil/Statistics")
+setwd("../")
+
+#install.packages("devtools")
+devtools::install_github("ropenscilabs/datastorr")
+devtools::install_github("traitecoevo/fungaltraits")
+library(fungaltraits)
 
 ## -- Loading Function and Library
 library('AnalysisHelper')
